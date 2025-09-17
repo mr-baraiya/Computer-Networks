@@ -1,52 +1,62 @@
-# Prerequisites
-*.d
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
 
-# Object files
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Compiled source files
+# =========================
+*.class
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
-
-# Executables
+*.dll
 *.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# =========================
+# Java
+# =========================
+*.jar
+*.war
+*.ear
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+
+# =========================
+# C / C++
+# =========================
+*.obj
+*.a
+*.lib
+*.gch
+
+# =========================
+# Logs & Misc
+# =========================
+*.log
+*.swp
+*.tmp
+*.bak
+
+# =========================
+# Build / Dist
+# =========================
+dist/
+build/
