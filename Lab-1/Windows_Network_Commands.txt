@@ -1,0 +1,40 @@
+
+1. ipconfig – IP Configuration
+Shows IP address, subnet mask, default gateway, etc.
+- Usage: ipconfig /all, /release, /renew, /flushdns
+
+2. ping – Test Network Connectivity
+Sends ICMP packets to check if a host is reachable.
+- Usage: ping google.com
+
+3. getmac – Get MAC Address
+Displays MAC address of the system’s network interfaces.
+- Usage: getmac
+
+4. hostname – Get Computer Name
+Displays the device’s hostname.
+- Usage: hostname
+
+5. systeminfo – System Information
+Provides detailed OS, hardware, and network configuration info.
+- Usage: systeminfo
+
+6. nslookup – DNS Lookup
+Queries DNS to resolve domain names to IP addresses.
+- Usage: nslookup google.com
+
+7. tracert – Trace Route
+Shows the path packets take to reach a destination.
+- Usage: tracert google.com
+
+8. netstat – Network Statistics
+Displays active connections, ports, and routing info.
+- Usage: netstat -an
+
+9. pathping – Advanced Traceroute + Ping
+Combines ping and tracert, shows packet loss at each hop.
+- Usage: pathping google.com
+
+10. arp – Address Resolution Protocol
+Displays or modifies ARP cache (IP ↔ MAC).
+- Usage: arp -a

@@ -1,0 +1,19 @@
+modem
+nic
+repeater
+hub
+switch
+bridge
+router
+gateway
+
+
+1.give diffrences b/w below network devices
+	hub and switch
+	switch and router
+	router  and gateway
+2. working of below network devices:
+	switch
+	router
+	gateway
+Hub and switch
